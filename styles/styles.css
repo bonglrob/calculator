@@ -1,0 +1,72 @@
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border: 2px solid gainsboro;
+    background: whitesmoke;
+    border-radius: 5px;;
+    padding: 24px;
+}
+
+.display {
+    padding: 0 12px 0 12px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    background: white;
+}
+
+.display__text {
+    display: flex;
+    justify-content: end;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.row-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.button {
+    padding: 12px 32px 12px 32px;
+    border-radius: 5px;
+    background: lightblue;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: lightskyblue;
+}
+
+.button__numpad {
+    background: gainsboro;
+}
+
+.button__numpad:hover {
+    background: silver;
+}
+
+.button__clear, 
+.button__equals {
+    background: orange;
+}
+
+.button__clear:hover,
+.button__equals:hover {
+    background: darkorange;
+}
+
+.button__equals {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.button__clear {
+    flex-grow: 1;
+}
